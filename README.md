@@ -104,7 +104,7 @@ RANGE,50000,50010,baidu.com
 
 1. 不支持多网卡
 2. 本工具在centos8、redhat8、fedora31上有效，其他发行版未作测试
-3. 与前作[arloor/iptablesUtils](https://github.com/arloor/iptablesUtils)不兼容，在两个工具之间切换时，请重装系统以确保系统纯净！
+3. 与前作[arloor/iptablesUtils](https://github.com/nonepage/iptablesUtils)不兼容，在两个工具之间切换时，请重装系统以确保系统纯净！
 
 ## 如何停止以及卸载
 
@@ -120,5 +120,5 @@ systemctl disable nat
 
 ## 致谢
 
-1. [解决会清空防火墙的问题](https://github.com/arloor/nftables-nat-rust/pull/6)
-2. [ubuntu18.04适配](https://github.com/arloor/nftables-nat-rust/issues/1)
+1. [解决会清空防火墙的问题](https://github.com/nonepage/nftables-nat-rust/pull/6)
+2. [ubuntu18.04适配](https://github.com/nonepage/nftables-nat-rust/issues/1)
